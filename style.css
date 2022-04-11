@@ -1,12 +1,56 @@
 body {
-    color:blue
+    color: blue
 }
 
 #maincontainer {
     display: flex;
-    margin-top:30px;
+    margin-top: 30px;
     width: 100vw;
-  
 
+}
+
+header {
+    text-align: center;
+
+
+}
+
+.card {
+
+
+}
+
+#cardRandom {
+
+
+}
+
+#cardIngredients {
+
+
+}
+
+#funFact {
+
+
+}
+
+#btn-random {
+
+
+}
+
+#btn-ingredient {
+
+
+}
+
+#btn-funfact {
+
+
+}
+
+#funFactHeader {
+    text-align: center;
 
 }

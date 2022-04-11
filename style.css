@@ -1,12 +1,27 @@
 body {
-    color:blue
+    background-color:#005980
 }
 
 #maincontainer {
     display: flex;
     margin-top:30px;
     width: 100vw;
-  
-
-
 }
+
+.hero {
+    width: 100vw;
+    height: 60vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+  }

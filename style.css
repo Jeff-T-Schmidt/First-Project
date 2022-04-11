@@ -4,7 +4,7 @@ body {
 
 #maincontainer {
     display: flex;
-    margin-top:30px;
+    margin-top: 30px;
     width: 100vw;
 }
 
@@ -25,3 +25,51 @@ body {
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
   }
+
+
+
+header {
+    text-align: center;
+
+
+}
+
+.card {
+
+
+}
+
+#cardRandom {
+
+
+}
+
+#cardIngredients {
+
+
+}
+
+#funFact {
+
+
+}
+
+#btn-random {
+
+
+}
+
+#btn-ingredient {
+
+
+}
+
+#btn-funfact {
+
+
+}
+
+#funFactHeader {
+    text-align: center;
+
+}

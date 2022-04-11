@@ -14,14 +14,14 @@
 
 <body>
     <header>
-        <h1>title</h1>
+        <h1>Cocktails fun!</h1>
     </header>
     <main>
 
         <div class="container" id="maincontainer">
             <div class="row">
                 <div class="col s12 m7">
-                    <div class="card">
+                    <div class="card" id="cardRandom">
                         <div class="card-image">
                             <img src="cocktail_image.jpg">
                             <span class="card-title">Card Title</span>
@@ -31,22 +31,22 @@
                                 I am convenient because I require little markup to use effectively.</p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <button id="btn-random">search</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
+                <div class="col s12">
+                    <div class="card blue-grey darken-1" id="cardIngredients">
                         <div class="card-content white-text">
                             <span class="card-title">Card Title</span>
                             <p>I am a very simple card. I am good at containing small bits of information.
                                 I am convenient because I require little markup to use effectively.</p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
+                            
+                            <button id="btn-ingredient">search</button>
                         </div>
                     </div>
                 </div>
@@ -58,8 +58,8 @@
 
     <footer>
         <div class="container">
-            <div class="col s12 m7">
-                <h2 class="header">Horizontal Card</h2>
+            <div class="col s12" id="funFact">
+                <h3 id="funFactHeader">Fun Fact</h3>
                 <div class="card horizontal">
                     <div class="card-image">
                         <img src="https://lorempixel.com/100/190/nature/6">
@@ -69,7 +69,7 @@
                             <p>I am a very simple card. I am good at containing small bits of information.</p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <button id="btn-funfact">search</button>
                         </div>
                     </div>
                 </div>

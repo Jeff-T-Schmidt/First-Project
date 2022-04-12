@@ -29,5 +29,5 @@ function randomJoke(){
 
 }) 
 }
-
+randomJoke();
 footerBtn.addEventListener("click",randomJoke) 

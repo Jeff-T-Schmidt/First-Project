@@ -1,18 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    height: 100%;
+}
 body {
-    background-color:#1792c3
+  min-height: 100%;
+  line-height: 1;
+  
 }
 
-#maincontainer {
-    display: flex;
-    margin-top: 30px;
-    width: 100vw;
-}
 
 .hero {
     width: 100vw;
     height: 100vh;
     /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -26,31 +32,26 @@ body {
     color: #005980
 }
 
-
-
-/* header {
-    text-align: center;
-    
-    
-} */
-
 .card {
     border: solid black 2px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+/* Cocktail Randomizer */
 .card1 {
     position: absolute;
     top: 100%;
     border-radius: 50% 20% / 10% 40%;
-    
 }
+
+/* Ingredients */
 .card2 {
     position: absolute;
     top: 55%;
     max-width: 20%;
     
 }
+/* Fun fact / joke */
 .card3 {
     position: absolute;
     top: 68%;
@@ -58,8 +59,8 @@ body {
     width: 40%;
 }
 footer {
-    padding: 0%;
-    margin: 0%;
+    padding: -50px;
+    margin: -50px;
 }
 
 #cardRandom {
@@ -77,8 +78,11 @@ footer {
 
 }
 
-#btn-random {
-
+#btn-random:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+    
 
 }
 

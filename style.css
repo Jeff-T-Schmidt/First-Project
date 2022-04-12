@@ -1,23 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    height: 100%;
+}
 body {
-    color: blue
+  min-height: 100%;
+  line-height: 1;
+  
 }
 
-#maincontainer {
-    display: flex;
-    margin-top: 30px;
+
+.hero {
     width: 100vw;
-
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-
-header {
+.hero-text {
     text-align: center;
-
-
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #005980
 }
 
 .card {
+    border: solid black 2px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
 
+/* Cocktail Randomizer */
+.card1 {
+    position: absolute;
+    top: 100%;
+    border-radius: 50% 20% / 10% 40%;
+}
 
+/* Ingredients */
+.card2 {
+    position: absolute;
+    top: 55%;
+    max-width: 20%;
+    
+}
+/* Fun fact / joke */
+.card3 {
+    position: absolute;
+    top: 68%;
+    right: 55%;
+    width: 40%;
+}
+footer {
+    padding: -50px;
+    margin: -50px;
 }
 
 #secondIngredientScreen {
@@ -39,8 +82,11 @@ header {
 
 }
 
-#btn-random {
-
+#btn-random:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+    
 
 }
 

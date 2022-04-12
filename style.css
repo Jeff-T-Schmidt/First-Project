@@ -20,6 +20,10 @@ header {
 
 }
 
+#secondIngredientScreen {
+    display: none;
+}
+
 #cardRandom {
 
 

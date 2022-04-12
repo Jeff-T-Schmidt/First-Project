@@ -63,6 +63,10 @@ footer {
     margin: -50px;
 }
 
+#secondIngredientScreen {
+    display: none;
+}
+
 #cardRandom {
 
 

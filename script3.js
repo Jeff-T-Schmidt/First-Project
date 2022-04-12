@@ -45,8 +45,8 @@ function getIngredients() {
 ingredientBtn.addEventListener("click", getIngredients);
 
 //second button
-// var secondIngredientScreenEl = document.getElementById("secondIngredientScreen");
-// secondIngredientScreenEl.setAttribute("class", "hide");
+var secondIngredientScreenEl = document.getElementById("secondIngredientScreen");
+secondIngredientScreenEl.setAttribute("class", "hide");
 
 //click event listener to recipe options
     //function to find recipe

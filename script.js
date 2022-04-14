@@ -3,22 +3,6 @@ var footerBtn = document.getElementById("btn-funfact")
 var randomFooter = document.getElementById("randomJoke")
 
 
-
-
-
-
-// var apiKey = ""
-
-
-// function getApi() {
-    
-//     var requestUrl = '';
-  
-//     fetch(requestUrl)
-//       .then(function (response) {
-//         return response.json();
-//       })
-
 function randomJoke(){
    fetch("https://api.chucknorris.io/jokes/random")
 .then(response => response.json())
@@ -31,3 +15,4 @@ function randomJoke(){
 }
 randomJoke();
 footerBtn.addEventListener("click",randomJoke) 
+

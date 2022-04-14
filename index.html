@@ -19,8 +19,8 @@
     <main>
 
         <!-- Welcome banner + background image  -->
-        <div class="containter">
-            <div class="row">
+        <div class="containter" style="margin: auto;">
+            <div class="row" style="margin: auto;">
                 <img class="img hero" src="./assets/palm-tree.jpg">
                 <div class="hero-text">
                     <h1 style="font-size:8em">Welcome</h1>
@@ -36,7 +36,8 @@
                                 <div class="card-content #64b5f6 blue lighten-2"
                                     style="border-radius: 0px 0px 30px 30px;">
                                     <ul>
-                                        <li style="font-size: 25px;font-weight: 800;" id="drinkName"></li>
+                                        <li style="font-size: 25px;font-weight: 800;border-bottom: 1px solid black;"
+                                            id="drinkName"></li>
                                         <li id="drinkIngredients1"></li>
                                         <li id="drinkIngredients2"></li>
                                         <li id="drinkIngredients3"></li>
@@ -46,8 +47,10 @@
                                     </ul>
                                     <div class="card-content #64b5f6 blue lighten-2"
                                         style="border-radius: 0px 0px 30px 30px;">
-                                        <button style="padding: 10px 40px 10px 40px;margin: -10px;"
-                                            class="#bbdefb blue lighten-4 btn1" id="btn-random">
+                                        <button onclick="document.getElementById('sound1').play();"
+                                            style="padding: 10px 40px 10px 40px;margin: -10px;"
+                                            class="#BBDEFB blue lighten-4 btn1" id="btn-random"><audio id="sound1"
+                                                src="./assets/Ice_Shaking.mp3" preload="auto"></audio>
                                             <p class="black-text" style="font-weight: 800;padding-bottom: 5px;">Are you
                                                 thirsty?<br> CLICK ME for a random cocktail recipe!.</p>
                                             <i class="material-icons">liquor</i>
@@ -58,11 +61,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- Show/hide card || Make a cocktail -->
-                <div class="row" id="cardIngredients">
+                <!-- First card (right side) || Make a cocktail -->
+                <div class="row" style="margin: auto;" id="cardIngredients">
                     <div class="col s6 card2"
                         style="left:75%;opacity:0.9;font-weight: 800; border-radius: 30px 30px 0px 0px;">
-                        <div class="card #64b5f6 blue lighten-2"  style="border-radius: 30px;"  >
+                        <div class="card #64b5f6 blue lighten-2" style="border-radius: 30px;">
                             <div class="card-content black-text #64b5f6 blue lighten-2"
                                 style="border-radius: 30px 30px 0px 0px;">
                                 <span style="font-weight: 800;" class="card-title">Make a cocktail!</span>
@@ -81,20 +84,24 @@
                                 <button style="padding: 10px 40px 10px 40px;position: relative;right: -29%; "
                                     class="#bbdefb blue lighten-4 btn2" id="btn-ingredient">Get Cocktails<i
                                         class="material-icons" style="margin-left: 10px;">fact_check</i></button>
-                            </div>>
+                            </div>
                         </div>
                     </div>
                 </div>
-              <!-- Show/hide card || Make a cocktail -->
-                <div class="row">
-                    <div class="col s6 card2"
+                <!-- Show/hide card || Second card to show -->
+                <div class="row" style="margin: auto;">
+                    <div class="col s6 card2 "
                         style="left:75%;opacity:0.9;font-weight: 800; border-radius: 30px 30px 0px 0px;">
-                        <div class="card #90caf9 blue lighten-3 hide" id="cocktailListCard" style="border-radius: 30px;">
-                            <div class="card-content black-text #64b5f6 blue lighten-2" style="border-radius: 30px;">
-                                <span style="font-weight: 800;" class="card-title">List of Cocktails: </span>
+                        <div class="card #90caf9 blue lighten-3 hide" id="cocktailListCard"
+                            style="border-radius: 30px;box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;border: 1px solid black;">
+                            <div class="card-content black-text #64b5f6 blue lighten-2"
+                                style="border-radius: 30px;text-align: center;font-size: larger;">
+                                <span style="font-weight: 800;font-size: xx-large;border-bottom: 1px solid black;"
+                                    class="card-title">Choose a cocktail!</span>
                                 <ul id="cocktails"></ul>
                                 <div class="card-action" style="border-radius: 0px 0px 30px 30px;">
-                                    <button style="padding: 10px 40px 10px 40px;position: relative;right: -29%; "
+                                    <button
+                                        style="padding: 10px 40px 10px 40px;position: relative; margin-bottom: 20px;"
                                         class="#bbdefb blue lighten-4 btn2" id="btn-return">Go Back<i
                                             class="material-icons" style="margin-left: 10px;">fact_check</i></button>
                                 </div>
@@ -102,36 +109,39 @@
                         </div>
                     </div>
                 </div>
-                <!--Third card-->
-                <div class="row">
+                <!--Show/hide card || Third card to show -->
+               
+                <div class="row" style="margin: auto;">
                     <div class="col s6 card2"
                         style="left:75%;opacity:0.9;font-weight: 800; border-radius: 30px 30px 0px 0px;">
-                        <div class="card #90caf9 blue lighten-3 hide" id="chooseCocktail" style="border-radius: 30px;">
-                            <div class="card-content black-text #64b5f6 blue lighten-2" style="border-radius: 30px;">
-                                <span style="font-weight: 800;" class="card-title">Cocktail: </span>
+                        <div class="card #90caf9 blue lighten-3 hide" id="chooseCocktail"
+                            style="border-radius: 30px;box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;border: 1px solid black;">
+                            <div class="card-content black-text #64b5f6 blue lighten-2"
+                                style="border-radius: 30px;text-align: center;font-size: larger;">                                
+                                <span style="font-weight: 800;" class="card-title">Cocktail Name: </span>
                                 <ul id="chosenRecipe">
-                                    <li style="font-size: 25px;font-weight: 800;" id="drinkName2"></li>
+                                    <li style="font-size: 25px;font-weight: 800;border-bottom: 3px solid black;border-top: 3px solid black;" id="drinkName2"></li>
                                     <li id="cocktailIngredients1"></li>
                                     <li id="cocktailIngredients2"></li>
                                     <li id="cocktailIngredients3"></li>
                                     <li id="cocktailIngredients4"></li>
                                     <li id="cocktailIngredients5"></li>
                                     <li id="cocktailInstructions"></li>
-                                </ul>
-                                    
+                                </ul>                                    
                                 <div class="card-action" style="border-radius: 0px 0px 30px 30px;">
-                                    <button style="padding: 10px 40px 10px 40px;position: relative;right: -29%; "
-                                        class="#bbdefb blue lighten-4 btn2" id="btn-returnList">Go Back<i
-                                            class="material-icons" style="margin-left: 10px;">fact_check</i></button>
+                                    <button
+                                    style="padding: 10px 40px 10px 40px;position: relative;margin-bottom: 20px; "
+                                    class="#bbdefb blue lighten-4 btn2" id="btn-returnList">Go Back<i
+                                        class="material-icons" style="margin-left: 10px;">fact_check</i></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- Fun Fact / image / button / card and style -->
                 <div class="container">
-                    <div class="row">
+                    <div class="row" style="margin: auto;">
                         <div class="col s12" style="opacity:0.8" id="funFact">
                             <div class="card horizontal card3 #64b5f6 blue lighten-2"
                                 style="border-radius: 30px;right: 32%;">
@@ -165,7 +175,6 @@
     <script src="script.js"></script>
     <script src="script3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
 </body>
 
 </html>

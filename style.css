@@ -1,18 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
+*, *::before, *::after {
     box-sizing: border-box;
   }
 
+  /* *{ border: 1px solid red; } */
+
 html {
     height: 100%;
+        
 }
 body {
   min-height: 100%;
   line-height: 1;
-  
+  margin: 0;
+  padding: 0;
+ 
 }
-
+/* .row {
+    margin-bottom: -20px;
+} */
 
 .hero {
     width: 100vw;
@@ -64,11 +69,27 @@ footer {
 }
 li {
     font-weight: 800;
+    padding: 5px;
 }
-
+ul.dropdown-content.select-dropdown li span {
+    color: #000; 
+    background-color: #90caf9;
+}
+ul.dropdown-content.select-dropdown li {
+    background-color: #90caf9;
+}
 
 #secondIngredientScreen {
     display: none;
+}
+/* Trying to make a highlight feature */
+#cocktails > li {
+    transition: width 2s ease;
+  }
+
+#cocktails > li:hover {
+    width: 90%; 
+    cursor: pointer;
 }
 
 #cardRandom {
@@ -99,6 +120,19 @@ li {
     background:#fff;
     
 
+}
+#btn-return:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+#btn-returnList:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+#btn-return {
+    /* left: 45px; */
 }
 
 #btn-ingredient {

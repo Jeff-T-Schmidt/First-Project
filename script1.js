@@ -1,5 +1,6 @@
 var requestRandomURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
 var randomBtn = document.getElementById("btn-random");
+// Random cocktail card 
 
 function fetchRandom() {
   fetch(requestRandomURL)

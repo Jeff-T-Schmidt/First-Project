@@ -1,26 +1,34 @@
 # First-Project
-First student group project
 
-Milestones
+For our Cocktail Wonderland Project, we used 2 different APIs.
 
-Today:
-1. finish website skeleton
-2. create and assign tasks
-3. find api's
+Also as one of the requirements, we have Materialize as our css framework. 
 
-Tuesday:
-1. start tasks- all day 
-2. pull/merge tasks
-3. debug
+User Story: 
+As someone who enjoys adult beverages and wants to try new cocktails, I want to have some options for cocktails and see some fun facts while doing it. 
 
-Wednesday:
-1. finish tasks
-2. pull/merge 
-3. debug
-4. website testing
+Acceptance criteria: 
 
-Thursday:
-1. practice presentation
-2. delegate parts of presentation to group
-3. clean up kanban board
-4. code lock
+When user clicks on cocktail randomizer, they hear a shaker sound. They get a random cocktail displaying the name and its recipe. 
+
+When user interacts with "Make a cocktail" card; when they choose an alcohol from the dropdown options and click "Get Cocktails",they are presented with 5 possible cocktail choices with the chosen alcohol. They can hover over the list and choose one, that will display a recipe for that chosen cocktail. They can go back by clicking the "Go Back" button and choose another cocktail from that list. 
+
+When user clicks the 'Click Me' button on "Fun Fact" card, they are presented with a random Chuck Norris "fact". They can click again to get a new one.  
+
+Links: 
+GitHub: https://github.com/Jeff-T-Schmidt/First-Project
+
+Screenshots: 
+
+Website: 
+![Getting started](/assets/cocktailWonderland.JPG)
+
+
+
+wireframe: 
+![Getting started](/assets/wireframe.JPG)
+
+
+
+
+

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.FormSelect.init(elems);
 });
 //define variables
-// var ingredientList = document.getElementById("ingredientList");
+
 var ingredientBtn = document.getElementById("btn-ingredient");
 var cocktailsEl = document.getElementById("cocktails");
 var ingredientCard = document.getElementById("cardIngredients");
@@ -29,7 +29,6 @@ function getIngredients() {
 
     var drinkInput = document.getElementById("cocktailList");
     var value = drinkInput.options[drinkInput.selectedIndex].textContent;
-    // var edgeCase = drinkInput.options[drinkInput.selectedIndex].value;
     console.log(value);
 
 

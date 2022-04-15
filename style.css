@@ -114,6 +114,12 @@ ul.dropdown-content.select-dropdown li {
     background:#fff;
 }
 
+#btn-ingredient:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+
 #funFactHeader {
     text-align: center;
 }

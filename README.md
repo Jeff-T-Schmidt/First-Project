@@ -18,6 +18,8 @@ When user clicks the 'Click Me' button on "Fun Fact" card, they are presented wi
 Links: 
 GitHub: https://github.com/Jeff-T-Schmidt/First-Project
 
+URL: https://jeff-t-schmidt.github.io/First-Project/
+
 Screenshots: 
 
 Website: 
